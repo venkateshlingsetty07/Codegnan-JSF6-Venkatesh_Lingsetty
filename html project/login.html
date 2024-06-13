@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+     <head>
+     	<title>Home Page</title>
+     	<meta name="Venkatesh Lingsetty" content="developer">
+        <meta name="revise" content="21/05/2024">
+        <meta charset="utf-8">
+        <meta name="decription" content="Navagation,html">
+        <meta name="viewport" content="width=device-width"  initial-scale="0.1">
+
+        <style>
+            body{
+                animation-name:s2 ;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+                animation-fill-mode: both;
+                position:  absolute;
+                left: 150px;
+                top:60px;
+            }
+            @keyframes s2 {
+                 0%{background-color: yellowgreen;}
+               15%{background-color: white;}
+               25%{background-color: lightcoral;}
+               35%{background-color: violet;}
+               50%{background-color: lightblue;}
+               65%{background-color: indigo;}
+               75%{background-color: orange;}
+               100%{background-color: blue;}                
+            }
+            div{
+                position: absolute;
+                top: 200 px;
+                left: 400 px;
+            }
+            .s3 {
+             height: 300px;
+             width: 200px;
+            }
+            .s4 {
+                height: 300px;
+                width: 200px;
+            }
+        </style>
+        </head>
+
+     <body>
+        <div>
+	    <table border="3" bgcolor="black" width="1000px" height="300px" bordercolor="black">
+        <tr bgcolor="skyblue">
+    	<th> <marquee>Login</marquee>  </th>
+    	<th> <marquee>Register </marquee>  </th>
+       </tr>
+    <tr>
+    	<td align="center" bgcolor="grey" class="s3">
+    		<form  action="logindetails.html"  target="_blank">
+    			    <label for="mail"> Email Id:</label> <br>
+                    <input type="email" id="mail" required> 
+                 <br>
+                 <br>
+
+                     <label for="usrname"> username: </label> <br>
+                     <input type="username"> <br>
+                 <br>
+                      <button type="submit"> submit </button>
+                  <br>
+
+              </form>
+          </td>
+             
+              <td align="center" bgcolor="grey" class="s4">
+
+              	   <form action="registerdetails.html"  target="_blank">
+              		  <label for="name"> Name: </label> <br>
+              		  <input type="name"> <br> <br>
+              		  <label for="email"> E mail Id: </label> <br>
+              		  <input type="email" required> <br> <br>
+              		  <label for="Password" > Password: </label> <br>
+                       <input type ="Password"> <br> <br>
+                       <label for="Re enter Password" > Re enter Password: </label> <br> 
+                       <input type ="Re enter Password"> <br> <br>  
+                       <button type="Register">Register</button>
+
+                   </form>
+               </td>
+           </tr>
+           <tr >
+           	<td align="center" colspan="2" bgcolor="skyblue">
+           		&copy;copyright reserverd
+           	</td>
+           </tr>
+       </table>
+       </div>
+   </body>
+
+</html>
+
+
+
+
+
+
+

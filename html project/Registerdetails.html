@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+        <head>
+              <title> Register Page</title>
+              <meta name="Venkatesh Lingsetty" content="developer">
+              <meta name="revise" content="21/05/2024">
+              <meta charset="utf-8">
+              <meta name="decription" content="Navagation,html">
+              <meta name="viewport" content="width=device-width"  initial-scale="0.1">
+              <style>
+                .x{
+                        border: solid;
+                        height: 100px;
+                        width: 100px;
+                        border-radius: 50px;
+                        position: absolute;
+                        top : 5x;
+                        right : 5px;
+                        animation-name: animation2;
+                        animation-delay: 1s;
+                        animation-duration: 3s;
+                        animation-iteration-count: infinite;
+                }
+                .x:hover{
+				animation-name: animation3;
+				animation-delay: 1s;
+				animation-duration: 1s;
+				animation-iteration-count: infinite;
+			}
+                @keyframes animation2 {
+                        from{
+                                height: 100px;
+                                width : 100px;
+                        }
+                        to{
+                                height: 100px;
+                                width : 100px;   
+                        }
+                        
+                }
+
+                .x h3{
+                        display: none;
+                }
+                img{
+                height: 100%;
+                width: 100%;
+                border-radius: 100%;
+                }
+                .x h3{
+                        height: 50px;
+                        width: 300px;
+                        border: solid;
+                        background-color: skyblue;
+                        border-radius: 10px;
+                        padding: 30px;
+                        text-align: center;
+                        position: relative;
+                        right: 300px;
+
+                }
+                .x:hover h3{
+                        display: block;
+                        animation-name: animation1;
+                        animation-delay: 1s;
+                        animation-duration: 3s;
+                        animation-iteration-count: infinite;
+
+                }
+                @keyframes animation1 {
+                        from{
+                                background-color: lightseagreen;
+                        }
+                        to{
+                           background-color: lightslategray;
+                           color: white;
+                        }
+                }
+                 
+			 
+              </style>
+        </head>
+        <body>
+           <div class="x">
+                <img src="data:image/png;base64,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">
+            <h3>Website : www.codegnan.com <br>
+               Contact :  +91 9888748888
+            
+        </h3>   
+        </div>
+               <table border="1" cellpadding="10px" bgcolor="pink">
+                      <tr align="centre">
+                 <th colspan="2"><h1> Welcome To Register Page! </h1> 
+                              <a href="login.html"> Home Page </a>
+
+                      </th>
+             </tr>
+                <tr>
+                        <td>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/r9SHXfmebcw?si=SZWbrzJ3EHLBS3sf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                        
+                                </iframe>
+                        </td>
+                        
+                        <td>
+                                       <iframe width="560" height="315" src="https://www.youtube.com/embed/YzybXE3zl1Q?si=axFuJz6pOYubAx8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </td>
+                        </tr>
+                <tr >
+                <td align="center" colspan="2" >
+                        &copy;copyright reserverd
+                </td>
+           </tr>
+                                                                
+           </table>
+     </body>
+</html>
