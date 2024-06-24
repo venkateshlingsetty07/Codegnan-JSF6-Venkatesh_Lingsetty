@@ -1,0 +1,117 @@
+
+
+.logo {
+	position: fixed;
+}
+
+h4 {
+	color: grey;
+	display: none;
+	margin-top: -20px;
+	margin-left: 50px;
+}
+.a :hover h4 {
+	display: block;
+}
+
+body {
+	background-color: black;
+}
+
+iframe {
+border-radius: 10px;
+border-color: grey;
+
+}
+
+.b {
+margin-left:100px ;
+margin-top: 0px;
+margin-bottom: 100px;
+}
+
+.b1 {
+margin-left:100px ;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.b2 {
+margin-left:100px ;
+margin-bottom: 100px;
+display: grid;
+grid-template-columns: auto auto auto auto;
+column-gap: 50px;
+}
+
+.b3 {
+
+margin-left:100px ;
+margin-bottom: 100px;
+display: grid;
+grid-template-columns: auto auto auto auto;
+column-gap: 50px;
+}
+
+.b4 {
+margin-left:100px ;
+margin-bottom: 100px;
+display: grid;
+grid-template-columns: auto auto auto auto;
+column-gap: 50px;
+}
+
+.b5 {
+margin-left:100px ;
+margin-bottom: 100px;
+display: grid;
+grid-template-columns: auto auto auto auto;
+column-gap: 50px;
+
+}
+
+.abc {
+display: flex;
+column-gap: 300px;
+
+}
+
+h2 {
+color: white;
+
+}
+
+.image:hover {
+transform: scale(1.5);
+}
+@media only screen{
+.a{
+	position: fixed;
+	display: grid;
+	grid-template-rows: auto ;
+	grid-template-columns: auto auto auto auto auto auto;
+	top:500px;
+	gap: 50px;
+	margin-left: 20px;
+   
+}
+
+
+
+}
+@media (min-width:600px) {
+
+
+.a{
+	position: fixed;
+	display: grid;
+	grid-template-columns: auto;
+	top: 15%;
+	left:0%;
+	gap: 30px;
+   
+}
+
+
+
+}
